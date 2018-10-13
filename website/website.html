@@ -1,0 +1,42 @@
+<!DOCTYPE html> 
+<html lang="en">
+	<head>
+		<title>StartMeUp</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="style.css"/>
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<div id="about">
+			<h1 id="intro"> <span id="fancy">StartMeUp</span></h1>
+			<img src="https://media3.giphy.com/media/VN1FNL6Lqc0vu/giphy.gif?cid=3640f6095bc1e21d3979577067d23bc6"/>
+			<p> Select your industry: </p>
+			<div class="dropdown">
+				<button onclick="myFunction()" id = "droptop" class="dropbtn">Industries</button>
+				<div id="myDropdown" class="dropdown-content">
+					<a> Automotive </a>
+					<a> Education </a>
+					<a> Retail </a>
+           		</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<div class="input">
+				<h3> Total Assets </h3>
+				<form id="form1">
+					<input id="assets" type="number" min="0" name="assets">
+					<button>Submit</button>
+				</form>
+				<h3> Total Liabilities </h3>
+				<form id="form2">
+					<input id="liabs" type="number" min="0" name="liabs">
+					<button>Submit</button>
+				</form>
+			</div>
+			<br/>
+			<p> Output: </p>
+		</div>
+	</body>
+</html>
